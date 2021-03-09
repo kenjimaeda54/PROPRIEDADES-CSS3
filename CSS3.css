@@ -1,0 +1,30 @@
+.btn {
+  display: block;
+  padding: 10px;
+  position: relative;
+  background-color: #333;
+  border: 1px solid #333;
+  width: 150px;
+  height: 75px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1s;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #fff;
+}
+
+.box {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  transition:3s;
+}
+.box:hover {
+  width: 300px; /* vai amentar a largura em 300px */
+}
