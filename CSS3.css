@@ -32,16 +32,16 @@
 .pai {
   width: 500px;
   height: 250px;
-  position: relative;
-  background-color: #ddd;
   border: 1px solid red;
+  background-color: #ddd;
+  position: relative;
 }
-
 .calculo-div {
   height: 50px;
+  /* nossa div principal tem 250 heigth,nos temos 4 div,multiplicando por 50 vai dar 200 px,melhor relação */
   margin: 10px;
-  position: relative;
   background-color: red;
+  position: relative;
 }
 
 .calculo1 {
@@ -52,8 +52,39 @@
 }
 .calculo3 {
   width: calc(50% * 2);
-  margin: 0;
+  margin: 0px;
 }
-calculo4 {
+.calculo4 {
   width: calc(50% / 2);
+}
+
+.gradiente-div {
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+}
+
+.gradiente1 {
+  background-image: linear-gradient(black, #ddd);
+}
+
+.gradiente2 {
+  background-image: linear-gradient(to right, skyblue, darkGoldenrod);
+}
+
+.gradiente3 {
+  background-image: linear-gradient(to left, darkgreen, red);
+}
+
+.gradiente4 {
+  background-image: linear-gradient(to top, magenta, white);
+}
+
+.gradiente5 {
+  background-image: linear-gradient(to top right, PaleTurquoise, black);
+}
+
+.gradiente6 {
+  background-image: linear-gradient(#8b636c, #ee9a00, #8b2500);
 }
